@@ -1,6 +1,7 @@
 import streamlit as st
 import cv2
 import mediapipe as mp
+from matplotlib import pyplot as plt
 
 # ---------------------------------------------------------------------
 st.set_page_config(
