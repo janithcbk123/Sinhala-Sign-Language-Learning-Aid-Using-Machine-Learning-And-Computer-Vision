@@ -26,7 +26,7 @@ st.sidebar.subheader('Settings')
 # ----------------------------------------------------------------------
 
 app_mode= st.sidebar.selectbox('Choose the App Mode',
-                               ['About App','Run on Image','Run On Video','Show Code'])
+                               ['Learn Sign Language','Show Alphabet','About App'])
 
 # ----------------------------------------------------------------------
 
