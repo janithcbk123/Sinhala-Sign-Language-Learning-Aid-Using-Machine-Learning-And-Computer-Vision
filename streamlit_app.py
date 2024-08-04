@@ -26,7 +26,6 @@ if st.sidebar.button('Github'):
 st.sidebar.title('Menu')
 st.sidebar.subheader('Settings')
 
-@st.cache ()
 # ----------------------------------------------------------------------
 
 app_mode= st.sidebar.selectbox('Choose the App Mode',
