@@ -53,7 +53,11 @@ if app_mode== 'Learn Sign Language':
     )
 
 #####################################################################################################################################################################
-
+    pose = []
+    for res in results.pose_landmarks.landmark:
+        test = np.array([res.x, res.y, res.z, res.visibility])
+        pose.append(test)
+        
     colors = [(245,117,16), (117,245,16), (16,117,245)]
     def prob_viz(res, actions, input_frame, colors):
         output_frame = input_frame.copy()
