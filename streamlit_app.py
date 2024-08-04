@@ -20,6 +20,11 @@ if st.sidebar.button('Github'):
 
 # ----------------------------------------------------------------------
 
+st.sidebar.title('Menu')
+st.sidebar.subheader('Settings')
+
+# ----------------------------------------------------------------------
+
 
 st.title('📚 Sinhala Sign Language Learning Aid')
 st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
