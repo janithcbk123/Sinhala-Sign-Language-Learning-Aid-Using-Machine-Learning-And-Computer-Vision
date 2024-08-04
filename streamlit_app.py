@@ -35,6 +35,7 @@ app_mode= st.sidebar.selectbox('Choose the App Mode',
 
 if app_mode== 'About App':
     st.markdown('App Made using **Mediapipe** & **Open CV**')
+    st.markdown('App Made using **Mediapipe** & **Open CV**')
 
     st.markdown(
         """
