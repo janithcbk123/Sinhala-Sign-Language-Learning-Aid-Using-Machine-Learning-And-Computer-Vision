@@ -35,8 +35,8 @@ if app_mode== 'Learn Sign Language':
     st.markdown('Developed by **Thesara_Wiki** & **Janith_C**')
     st.markdown('App Made using **Mediapipe** & **Open CV**')
 
-    number = st.number_input(
-    "Insert a number", value=None, placeholder="Type a number..."
+    number = st.sidebar.number_input(
+    "Insert a number", min_value=0, max_value=30, value=None, step=1, placeholder="Type a number..."
     )
     
 # ----------------------------------------------------------------------
