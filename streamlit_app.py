@@ -51,7 +51,6 @@ if app_mode== 'About App':
 
     st.markdown('''
                 # Tutorial \n
-                
                 '''
                 )
     original_title = '<pre style="font-family:Aku & Kamu; color:#FD0101 ; font-size: 28px;font-weight:Bold">*NOTE</pre>'
@@ -61,15 +60,15 @@ if app_mode== 'About App':
     If It's <strong>Lagging</strong> just <strong>Reload</strong> & Choose your option <strong>ASAP</strong>  
     Webcam Will Take about <strong>20 Seconds</strong> to Load
     
-    Update :
+    Update :\n
     1) We discovered that you can't use Webcam Online,
-    Because then it will try Access Server's Which we don't Own.
+    Because then it will try Access Server's Which we don't Own.\n
     
-    2) Hand Marks are not showing online + Video freezes
+    2) Hand Marks are not showing online + Video freezes\n
     
     <strong>Solution :</strong>
     Go to main Streamlit WebApp Code & Run it Locally by typing
-    <strong>streamlit run st2.py</strong>
+    <strong>streamlit run streamlit_app.py</strong>
     </pre>'''
     # st.markdown('''Video Option will Experience **Lag** in **Browsers**. If It's **Lagging** just **Reload** & Choose your option ASAP eg: **Choosing Max Hands** or **Using Webcam**. Webcam Will Take about **20 Seconds** to Load ''')
     st.markdown(original_title, unsafe_allow_html=True)
