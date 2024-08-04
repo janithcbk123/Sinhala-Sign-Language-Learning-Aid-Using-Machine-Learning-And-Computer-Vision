@@ -42,7 +42,7 @@ if app_mode== 'Learn Sign Language':
 
 #####################################################################################################################################################################
 
-st.set_option('deprecation.showfileUploaderEncoding',False)
+    st.set_option('deprecation.showfileUploaderEncoding',False)
     use_webcam = st.sidebar.button('Use Webcam')
     record= st.sidebar.checkbox("Record Video")
     
