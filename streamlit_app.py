@@ -1,9 +1,6 @@
 import streamlit as st
 
 
-st.title('📚 Sinhala Sign Language Learning Aid')
-st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
-
 # ---------------------------------------------------------------------
 st.set_page_config(
     page_title="Sinhala Sign Language Learning Aid",
@@ -13,6 +10,9 @@ st.set_page_config(
 )
 
 # ---------------------------------------------------------------------
+
+st.title('📚 Sinhala Sign Language Learning Aid')
+st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
 
 if st.sidebar.button('Github'):
     js = "window.open('https://github.com/janithcbk123/Sinhala-Sign-Language-Learning-Aid-Using-Machine-Learning-And-Computer-Vision')"  # New tab or window
