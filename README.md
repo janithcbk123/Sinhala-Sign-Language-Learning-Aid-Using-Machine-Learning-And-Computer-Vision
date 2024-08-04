@@ -1,13 +1,10 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📚 Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision
 
-Description of the app ...
+This is a Sinhala Sign Language Learning Aid.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sinhala-sign-language-learning-aid.streamlit.app/)
 
 ## GitHub Codespaces
 
