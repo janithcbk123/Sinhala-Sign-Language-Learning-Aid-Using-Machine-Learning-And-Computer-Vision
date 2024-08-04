@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('📚 Sinhala Sign Language Learning Aid')
 
-st.write('Hello world!')
+st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
