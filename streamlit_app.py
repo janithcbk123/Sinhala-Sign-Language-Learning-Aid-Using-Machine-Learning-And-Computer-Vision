@@ -60,11 +60,11 @@ if app_mode== 'About App':
     If It's <strong>Lagging</strong> just <strong>Reload</strong> & Choose your option <strong>ASAP</strong>  
     Webcam Will Take about <strong>20 Seconds</strong> to Load
     
-    Update : \n
+    Update :
     1) We discovered that you can't use Webcam Online,
-    Because then it will try Access Server's Which we don't Own. \n
+    Because then it will try Access Server's Which we don't Own.
     
-    2) Hand Marks are not showing online + Video freezes \n
+    2) Hand Marks are not showing online + Video freezes
     
     <strong>Solution :</strong>
     Go to main Streamlit WebApp Code & Run it Locally by typing
