@@ -11,6 +11,16 @@ st.set_page_config(
 
 # ---------------------------------------------------------------------
 
+mp_drawing = mp.solutions.drawing_utils
+mp_draw= mp.solutions.drawing_utils
+mp_face_mesh = mp.solutions.face_mesh
+mp_draw= mp.solutions.drawing_utils
+mp_hand= mp.solutions.hands
+mp_hands = mp.solutions.hands
+mp_drawing_styles = mp.solutions.drawing_styles
+
+# ----------------------------------------------------------------------
+
 st.title('📚 Sinhala Sign Language Learning Aid')
 st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
 
