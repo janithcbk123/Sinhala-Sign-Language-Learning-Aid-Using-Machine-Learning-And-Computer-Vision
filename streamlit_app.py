@@ -31,7 +31,17 @@ app_mode= st.sidebar.selectbox('Choose the App Mode',
 
 # ----------------------------------------------------------------------
 
-if app_mode== 'About App':
+if app_mode== 'Learn Sign Language':
+    st.markdown('Developed by **Thesara_Wiki** & **Janith_C**')
+    st.markdown('App Made using **Mediapipe** & **Open CV**')
+
+    number = st.number_input(
+    "Insert a number", value=None, placeholder="Type a number..."
+    )
+    
+# ----------------------------------------------------------------------
+
+elif app_mode== 'About App':
     st.markdown('Developed by **Thesara_Wiki** & **Janith_C**')
     st.markdown('App Made using **Mediapipe** & **Open CV**')
 
