@@ -25,6 +25,11 @@ st.sidebar.subheader('Settings')
 
 # ----------------------------------------------------------------------
 
+app_mode= st.sidebar.selectbox('Choose the App Mode',
+                               ['About App','Run on Image','Run On Video','Show Code'])
+
+# ----------------------------------------------------------------------
+
 
 st.title('📚 Sinhala Sign Language Learning Aid')
 st.info('Sinhala Sign Language Learning Aid Using Machine Learning And Computer Vision')
