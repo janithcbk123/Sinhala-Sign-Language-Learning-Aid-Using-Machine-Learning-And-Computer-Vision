@@ -37,7 +37,7 @@ if app_mode== 'Learn Sign Language':
 
     st.sidebar.subheader('Insert a number')
     number = st.sidebar.number_input(
-    min_value=0, max_value=30, value=None, step=1, placeholder="Type a number..."
+    "", min_value=0, max_value=30, value=None, step=1, placeholder="Type a number..."
     )
     
 # ----------------------------------------------------------------------
