@@ -1,6 +1,8 @@
-streamlit
-opencv-python
+streamlit==1.3.1
 numpy
-mediapipe
-bokeh==2.4.1
+pandas
+opencv-python-headless
+Pillow==8.3.2
 temp
+mediapipe==0.8.7
+bokeh==2.4.1
