@@ -18,8 +18,6 @@ if st.sidebar.button('Github'):
     js = "window.open('https://github.com/janithcbk123/Sinhala-Sign-Language-Learning-Aid-Using-Machine-Learning-And-Computer-Vision')"  # New tab or window
     # js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
-    div = Div(text=html)
-    st.bokeh_chart(div)
 
 # ----------------------------------------------------------------------
 
