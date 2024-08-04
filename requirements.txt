@@ -4,3 +4,4 @@ numpy
 mediapipe
 bokeh==2.4.1
 temp
+pandas
