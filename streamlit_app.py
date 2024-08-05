@@ -1,5 +1,4 @@
 import streamlit as st
-#import cv2
 import mediapipe as mp
 from matplotlib import pyplot as plt
 
@@ -36,8 +35,6 @@ app_mode= st.sidebar.selectbox('Choose the App Mode',
 if app_mode== 'Learn Sign Language':
     st.markdown('Developed by **Thesara_Wiki** & **Janith_C**')
     st.markdown('App Made using **Mediapipe** & **Open CV**')
-
-#    st.set_option('deprecation.showfileUploaderEncoding', False)
 
 #####################################################################################################################################################################
 #####################################################################################################################################################################
