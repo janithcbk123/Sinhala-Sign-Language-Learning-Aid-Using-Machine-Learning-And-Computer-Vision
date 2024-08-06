@@ -1,5 +1,5 @@
 opencv_python_headless
 streamlit
 mediapipe
-numpy==1.18.5
+numpy
 Pillow==8.2.0
