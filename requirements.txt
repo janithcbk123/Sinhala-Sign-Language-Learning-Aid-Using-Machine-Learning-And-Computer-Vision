@@ -2,4 +2,4 @@ opencv_python_headless
 streamlit
 mediapipe
 numpy
-Pillow==8.2.0
+Pillow
