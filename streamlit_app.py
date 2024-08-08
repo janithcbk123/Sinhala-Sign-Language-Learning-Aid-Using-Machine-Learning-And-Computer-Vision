@@ -6,10 +6,10 @@ from camera_input_live import camera_input_live
 "# Streamlit camera input live Demo"
 "## Try holding a qr code in front of your webcam"
 
-image = camera_input_live()
+cap = camera_input_live()
 
 if image is not None:
-    st.image(image)
+    st.image(cap)
     bytes_data = image.getvalue()
     cv2_img = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
 
