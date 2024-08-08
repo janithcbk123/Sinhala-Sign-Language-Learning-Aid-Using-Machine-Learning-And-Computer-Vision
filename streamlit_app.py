@@ -8,14 +8,20 @@ FRAME_WINDOW = st.image([])
 cap = cv2.VideoCapture(0)
 
 while run:
+    # Read feed
     ret, frame = cap.read()
-    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    
+    # Make detections
+    image, results = mediapipe_detection(frame, holistic)
+    #print(results)
+
 
     
+    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     FRAME_WINDOW.image(frame)
     
 else:
     st.write('Stopped')
 
 
-st.camera_input("das 1")
+st.camera_input("das 2")
