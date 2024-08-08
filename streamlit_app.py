@@ -14,4 +14,4 @@ else:
     st.write('Stopped')
 
 
-st.camera_input("sad")
+st.camera_input("das")
