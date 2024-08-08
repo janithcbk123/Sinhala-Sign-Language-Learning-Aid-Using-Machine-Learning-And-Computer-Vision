@@ -15,6 +15,9 @@ while run:
     image, results = mediapipe_detection(frame, holistic)
     #print(results)
 
+    # Draw landmarks
+    draw_styled_landmarks(image, results)
+
 
     
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -24,4 +27,4 @@ else:
     st.write('Stopped')
 
 
-st.camera_input("das 2")
+st.camera_input("das 3")
