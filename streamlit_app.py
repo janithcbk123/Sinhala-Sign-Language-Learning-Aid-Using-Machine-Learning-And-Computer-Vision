@@ -18,4 +18,4 @@ else:
     st.write('Stopped')
 
 
-st.camera_input("das")
+st.camera_input("das 1")
