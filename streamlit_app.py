@@ -18,6 +18,11 @@ while run:
     # Draw landmarks
     draw_styled_landmarks(image, results)
 
+    # 2. Prediction logic
+    keypoints = extract_keypoints(results)
+    sequence.append(keypoints)
+    sequence = sequence[-30:]
+
 
     
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -27,4 +32,4 @@ else:
     st.write('Stopped')
 
 
-st.camera_input("das 3")
+st.camera_input("das 4")
