@@ -53,7 +53,7 @@ while run:
 
     
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    FRAME_WINDOW.image(image)
+    FRAME_WINDOW.image(frame)
     
 else:
     st.write('Stopped')
